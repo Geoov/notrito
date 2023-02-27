@@ -16,18 +16,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
-      <main className="flex flex-col w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-yellow-200 via-yellow-300 to-yellow-400">
+      <main className="flex flex-col w-full h-full text-w bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600">
         <Navbar/>
         <Ctaemail/>
 
-        <div className="flex flex-col bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-yellow-200 via-yellow-300 to-yellow-400">
+        <div className="flex flex-col bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600">
           <div className="flex flex-row w-full my-10">
             <div className="basis-1/4"></div>
             <div className="basis-3/4">
               <div className="flex flex-col">
-                
-                <h1 className="text-white text-6xl">Cum functioneaza?</h1>
-                <p className="bg-grey-700 my-4">
+                <h1 className="text-white font-bold text-6xl">Cum functioneaza?</h1>
+                <p className="text-black font-bold my-4">
                   Calculeaza valorile nutritionale meselor tale sau ancheta
                   alimentara in cateva clickuri.
                 </p>
@@ -44,7 +43,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-row bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-yellow-200 via-yellow-300 to-yellow-400">
+        <div className="flex flex-row text-w bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600">
           <div className="basis-2/5"></div>
           <div className="basis-3/5">
             <div className="flex flex-col">

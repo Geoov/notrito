@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full bg-white">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+      <nav className="container relative flex flex-wrap items-center justify-between mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-red-600 dark:text-gray-100">

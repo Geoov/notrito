@@ -15,27 +15,28 @@ export default function Ctaemail() {
         <Image src="/assets/plate1.png" alt="plate" width="250" height="250" className="absolute right-0 bottom-1"/></div>
         <div className="relative">
         <Image src="/assets/plate2.png" alt="plate" width="250" height="250" className="absolute left-0 top-10"/></div>
-            <div className="flex justify-center items-center w-full my-8">
-                <div className="flex justify-between align-center items-center flex-col text-center border border-solid border-stone-200 h-44 w-40  p-4">
-                    <p className="text-green-500">OBTINE RAPID</p>
-                    <Image src="/assets/clock.svg" alt="clock" width="72" height="72" />
+            <div className="flex flex-col justify-center items-center w-full space-x-5">
+            <div className="flex justify-center items-center w-full my-8 space-x-5">
+                <div className="flex justify-between align-center items-center flex-col text-center shadow-lg border border-solid border-stone-200 h-60 w-52  p-4">
+                    <p className="text-green-600 font-semibold text-lg">OBTINE RAPID</p>
+                    <Image src="/assets/clock.svg" alt="clock" width="100" height="100" />
                 </div>
 
-                <div className="flex justify-between align-center items-center text-center flex-col border border-solid border-stone-200 h-44 mx-8 w-40 p-4">
-                    <p className="text-green-500">INFORMATII</p>
-                    <Image src="/assets/salad.svg" alt="clock" width="72" height="72" />
+                <div className="flex justify-between align-center items-center text-center flex-col shadow-lg border border-solid border-stone-200 h-60 w-52  p-4">
+                    <p className="text-green-600 font-semibold text-lg">INFORMATII</p>
+                    <Image src="/assets/salad.svg" alt="clock" width="100" height="100" />
                 </div>
 
-                <div className="flex justify-between align-center items-center text-center flex-col border border-solid border-stone-200 h-44 w-40 p-4">
-                    <p className="text-green-500">PENTRU PRODUSELE TALE</p>
+                <div className="flex justify-between align-center items-center text-center flex-col shadow-lg border border-solid border-stone-200 h-60 w-52 p-4">
+                    <p className="text-green-600 font-semibold text-lg">PENTRU PRODUSELE TALE</p>
                     <Image
                         src="/assets/organic.svg"
                         alt="clock"
-                        width="64"
-                        height="64" />
+                        width="100"
+                        height="100" />
                 </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center bg-transparent">
                 <div className="flex">
                     <input
                         type="email"
@@ -51,6 +52,7 @@ export default function Ctaemail() {
                         Inregistrare
                     </button>
                 </div>
+            </div>
             </div>
         </div>
       );  
